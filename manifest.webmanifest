@@ -1,0 +1,86 @@
+{
+  "name": "Columbus on Coffee",
+  "short_name": "On Coffee",
+  "description": "An independent guide to cafes, carts, boba, and matcha in Columbus, Ohio.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#DCC98A",
+  "theme_color": "#E85A4B",
+  "icons": [
+    {
+      "src": "icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open now",
+      "short_name": "Open now",
+      "description": "Cafés open right now",
+      "url": "./index.html#directory?open=1",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Early",
+      "short_name": "Early",
+      "description": "Cafés open by 6:30am",
+      "url": "./index.html#directory?early=1",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Evenings",
+      "short_name": "Evenings",
+      "description": "Cafés open at 7pm or later",
+      "url": "./index.html#directory?late=1",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Follow along",
+      "short_name": "Follow",
+      "description": "Outside accounts and café websites",
+      "url": "./index.html#links",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "food",
+    "travel",
+    "lifestyle"
+  ],
+  "id": "./"
+}
